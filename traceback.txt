@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scripts/story/main_story/volume_1/chapter_1/vol1_ch1_d1.rpy", line 274, in script
+    with Fade(2.0)
+TypeError: Fade() missing 2 required positional arguments: 'hold_time' and 'in_time'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scripts/story/main_story/volume_1/chapter_1/vol1_ch1_d1.rpy", line 274, in script
+    with Fade(2.0)
+  File "C:\Users\The Fam\Desktop\RenPy\renpy-8.1.3-sdk\renpy\ast.py", line 1678, in execute
+    renpy.exports.with_statement(trans, paired=paired)
+  File "C:\Users\The Fam\Desktop\RenPy\renpy-8.1.3-sdk\renpy\exports.py", line 1758, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\The Fam\Desktop\RenPy\renpy-8.1.3-sdk\renpy\display\core.py", line 2978, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\The Fam\Desktop\RenPy\renpy-8.1.3-sdk\renpy\display\core.py", line 3582, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\The Fam\Desktop\RenPy\renpy-8.1.3-sdk\renpy\display\core.py", line 3976, in interact_core
+    trans = instantiate_transition(None, old_root, layers_root)
+  File "C:\Users\The Fam\Desktop\RenPy\renpy-8.1.3-sdk\renpy\display\core.py", line 3922, in instantiate_transition
+    trans = self.ongoing_transition[layer](
+TypeError: Fade() missing 2 required positional arguments: 'hold_time' and 'in_time'
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.1.3.23091805
+To Love An Android v0.0.1-alpha
+Mon Jan 29 19:11:03 2024

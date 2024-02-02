@@ -1,0 +1,1 @@
+define mc = Character("[player_name]",image="mc",voice_tag="mc")
