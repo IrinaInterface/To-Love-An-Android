@@ -7,3 +7,5 @@ default vol1_ch1_d1_activityslct_read = False
 default vol1_ch1_d1_activityslct_lego = False
 default vol1_ch1_d1_activityslct_colour = False
 default hareka_mana = 300
+default vol1_ch1_d2_sleepstate_sleptwell = False
+default vol1_ch1_d2_sleepstate_sleptbad = False
