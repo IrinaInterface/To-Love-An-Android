@@ -47,3 +47,4 @@ label vol1_ch1_d2:
     hareka "Here."
     show hareka neutral_v1_1
     mc "Thanks..."
+    "I eat."
